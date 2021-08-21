@@ -69,8 +69,7 @@ body {
   display: flex;
   border-bottom:
     1px solid #ececec;
-    padding-left: 215px;
-    padding-left: 215px;
+    
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -243,7 +242,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
-  margin-top: 30px;
+  padding-top: 30px;
 }
 .team-job {
   font-size: 16px;
@@ -251,8 +250,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-top: 10px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 /* Footer */
@@ -264,6 +263,7 @@ body {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 215px;
 }
 
 .footer-contacts {
@@ -330,15 +330,15 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
-  margin-top: 20px;
-  margin-bottom: 4px;
-  margin-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
 }
 .projects-description {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-bottom: 20px;
-  margin-left: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
