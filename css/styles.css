@@ -64,12 +64,13 @@ body {
   margin: 0 auto;
 }
 /* Header */
-.header-section .container {
+.header-section {
   background-color: #ffffff;
+}
+.header-section .container {
   display: flex;
   border-bottom:
     1px solid #ececec;
-    
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -127,12 +128,7 @@ body {
 
 /* Hero */
 .hero-section {
-  padding: 0%;
-}
-.hero-container {
   background-color: #2f303a;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .hero-title {
   font-weight: 900;
@@ -166,9 +162,6 @@ body {
 }
 
 /* Advantages */
-.advanteges-container {
-  background-color: #ffffff;
-}
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -214,13 +207,9 @@ body {
 }
 
 /* Our team */
-.team-container {
-  background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .team-section {
-  padding: 0;
+  background-color: #f5f4fa;
 }
 .team-list {
   display: flex;
@@ -255,12 +244,14 @@ body {
 }
 
 /* Footer */
+.footer-section {
+  background-color: #2f303a;
+}
 .logo-footer {
   display: block;
   margin-bottom: 20px;
 }
 .footer-container {
-  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 215px;
