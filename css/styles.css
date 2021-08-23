@@ -62,14 +62,15 @@ body {
   padding-left: 15px;
   margin: 0 auto;
 }
+
 /* Header */
 .header-section {
   background-color: #ffffff;
+  border-bottom:
+    1px solid #ececec;
 }
 .header-section .container {
   display: flex;
-  border-bottom:
-    1px solid #ececec;
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -128,6 +129,8 @@ body {
 /* Hero */
 .hero-section {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -143,6 +146,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+  border: none;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 32px;
@@ -157,7 +161,7 @@ body {
   background-color: #2196f3;
   cursor: pointer;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 /* Advantages */
@@ -206,7 +210,6 @@ body {
 }
 
 /* Our team */
-
 .team-section {
   background-color: #f5f4fa;
 }
@@ -253,9 +256,7 @@ body {
 .footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
-
 .footer-contacts {
   font-style: normal;
   font-size: 14px;
@@ -274,6 +275,7 @@ body {
 
 /* Main section in portfolio */
 .projects-btn {
+  display: inline-block;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -284,7 +286,8 @@ body {
   background-color: var(--button-color);
   cursor: pointer;
   border-radius: 4px;
-  border-color: #f5f4fa;
+  border: none;
+  padding: 6px 22px;
 }
 .projects-btn:hover,
 .projects-btn:focus {
@@ -309,7 +312,6 @@ body {
 }
 .projects-list .item {
   border: 1px solid #eeeeee;
-  
 }
 .projects-list .item:nth-child(-n + 6) {
   margin-bottom: 30px;
